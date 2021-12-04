@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiIOTCafe.Data\ApiIOTCafe.Data.csproj" />
+    <ProjectReference Include="..\ApiIOTCafe.Model\ApiIOTCafe.Model.csproj" />
+  </ItemGroup>
+
+</Project>

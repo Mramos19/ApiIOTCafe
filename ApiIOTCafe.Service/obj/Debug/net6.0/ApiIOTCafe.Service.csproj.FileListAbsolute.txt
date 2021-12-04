@@ -1,0 +1,17 @@
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\bin\Debug\net6.0\ApiIOTCafe.Service.deps.json
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\bin\Debug\net6.0\ApiIOTCafe.Service.dll
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\bin\Debug\net6.0\ref\ApiIOTCafe.Service.dll
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\bin\Debug\net6.0\ApiIOTCafe.Service.pdb
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\obj\Debug\net6.0\ApiIOTCafe.Service.csproj.AssemblyReference.cache
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\obj\Debug\net6.0\ApiIOTCafe.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\obj\Debug\net6.0\ApiIOTCafe.Service.AssemblyInfoInputs.cache
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\obj\Debug\net6.0\ApiIOTCafe.Service.AssemblyInfo.cs
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\obj\Debug\net6.0\ApiIOTCafe.Service.csproj.CoreCompileInputs.cache
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\obj\Debug\net6.0\ApiIOTCafe.Service.dll
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\obj\Debug\net6.0\ref\ApiIOTCafe.Service.dll
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\obj\Debug\net6.0\ApiIOTCafe.Service.pdb
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\bin\Debug\net6.0\ApiIOTCafe.Data.dll
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\bin\Debug\net6.0\ApiIOTCafe.Model.dll
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\bin\Debug\net6.0\ApiIOTCafe.Data.pdb
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\bin\Debug\net6.0\ApiIOTCafe.Model.pdb
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Service\obj\Debug\net6.0\ApiIOTCafe.Service.csproj.CopyComplete

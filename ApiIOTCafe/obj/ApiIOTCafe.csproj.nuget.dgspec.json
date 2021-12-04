@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe\\ApiIOTCafe.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Data\\ApiIOTCafe.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Data\\ApiIOTCafe.Data.csproj",
+        "projectName": "ApiIOTCafe.Data",
+        "projectPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Data\\ApiIOTCafe.Data.csproj",
+        "packagesPath": "C:\\Users\\Martin Ramos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Martin Ramos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Model\\ApiIOTCafe.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Model\\ApiIOTCafe.Model.csproj",
+        "projectName": "ApiIOTCafe.Model",
+        "projectPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Model\\ApiIOTCafe.Model.csproj",
+        "packagesPath": "C:\\Users\\Martin Ramos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Martin Ramos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Service\\ApiIOTCafe.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Service\\ApiIOTCafe.Service.csproj",
+        "projectName": "ApiIOTCafe.Service",
+        "projectPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Service\\ApiIOTCafe.Service.csproj",
+        "packagesPath": "C:\\Users\\Martin Ramos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Martin Ramos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Data\\ApiIOTCafe.Data.csproj": {
+                "projectPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Data\\ApiIOTCafe.Data.csproj"
+              },
+              "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Model\\ApiIOTCafe.Model.csproj": {
+                "projectPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Model\\ApiIOTCafe.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe\\ApiIOTCafe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe\\ApiIOTCafe.csproj",
+        "projectName": "ApiIOTCafe",
+        "projectPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe\\ApiIOTCafe.csproj",
+        "packagesPath": "C:\\Users\\Martin Ramos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Martin Ramos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Service\\ApiIOTCafe.Service.csproj": {
+                "projectPath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Service\\ApiIOTCafe.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

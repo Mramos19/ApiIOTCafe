@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ApiIOTCafe.Service/1.0.0": {
+        "dependencies": {
+          "ApiIOTCafe.Data": "1.0.0",
+          "ApiIOTCafe.Model": "1.0.0"
+        },
+        "runtime": {
+          "ApiIOTCafe.Service.dll": {}
+        }
+      },
+      "ApiIOTCafe.Data/1.0.0": {
+        "runtime": {
+          "ApiIOTCafe.Data.dll": {}
+        }
+      },
+      "ApiIOTCafe.Model/1.0.0": {
+        "runtime": {
+          "ApiIOTCafe.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApiIOTCafe.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiIOTCafe.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiIOTCafe.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
