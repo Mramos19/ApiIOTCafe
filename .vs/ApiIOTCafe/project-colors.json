@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7c1df3cf-1790-4964-a70f-0902e633b852": {
+      "ProjectGuid": "7c1df3cf-1790-4964-a70f-0902e633b852",
+      "DisplayName": "ApiIOTCafe",
+      "ColorIndex": 0
+    },
+    "7e22d555-ca17-4205-ae2d-894cdd8c280b": {
+      "ProjectGuid": "7e22d555-ca17-4205-ae2d-894cdd8c280b",
+      "DisplayName": "ApiIOTCafe.Data",
+      "ColorIndex": 1
+    },
+    "819148cf-69dd-4d6d-a3fb-05773df1a325": {
+      "ProjectGuid": "819148cf-69dd-4d6d-a3fb-05773df1a325",
+      "DisplayName": "ApiIOTCafe.Model",
+      "ColorIndex": 2
+    },
+    "cc7b246f-b6c0-411e-aba3-f6c0cb136b7c": {
+      "ProjectGuid": "cc7b246f-b6c0-411e-aba3-f6c0cb136b7c",
+      "DisplayName": "ApiIOTCafe.Service",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
