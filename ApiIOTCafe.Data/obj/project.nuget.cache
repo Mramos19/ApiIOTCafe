@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TOy2nXg1qQzD4vOak3gY5pV1eDvyMVX2fOCa9LTACOo8ys7teWd4tsznaCpmp4K8uuV9Ju3Am/kthxwz6dhTng==",
+  "dgSpecHash": "qxeq1ut1ZpGYwE6FllGa+e8+271lCvF7Po1h1VYOVWuw9DpSQXqQT3NhxIL75E/gPt5bzlxOtWv6bGIOFJoMOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Martin Ramos\\source\\repos\\ApiIOTCafe\\ApiIOTCafe.Data\\ApiIOTCafe.Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Martin Ramos\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Martin Ramos\\.nuget\\packages\\npgsql\\6.0.1\\npgsql.6.0.1.nupkg.sha512",
+    "C:\\Users\\Martin Ramos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

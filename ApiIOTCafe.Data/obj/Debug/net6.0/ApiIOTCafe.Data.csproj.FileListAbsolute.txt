@@ -2,7 +2,6 @@ C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\bin\Debug\net6.0\A
 C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\bin\Debug\net6.0\ApiIOTCafe.Data.dll
 C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\bin\Debug\net6.0\ref\ApiIOTCafe.Data.dll
 C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\bin\Debug\net6.0\ApiIOTCafe.Data.pdb
-C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\obj\Debug\net6.0\ApiIOTCafe.Data.csproj.AssemblyReference.cache
 C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\obj\Debug\net6.0\ApiIOTCafe.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\obj\Debug\net6.0\ApiIOTCafe.Data.AssemblyInfoInputs.cache
 C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\obj\Debug\net6.0\ApiIOTCafe.Data.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\obj\Debug\net6.0\A
 C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\obj\Debug\net6.0\ApiIOTCafe.Data.dll
 C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\obj\Debug\net6.0\ref\ApiIOTCafe.Data.dll
 C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\obj\Debug\net6.0\ApiIOTCafe.Data.pdb
+C:\Users\Martin Ramos\source\repos\ApiIOTCafe\ApiIOTCafe.Data\obj\Debug\net6.0\ApiIOTCafe.Data.csproj.AssemblyReference.cache
