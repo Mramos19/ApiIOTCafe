@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using ApiIOTCafe.Data;
+
 using ApiIOTCafe.Model.User.Entities;
 using ApiIOTCafe.Model.User.Request;
 using ApiIOTCafe.Model.User.Response;
@@ -12,6 +14,8 @@ namespace ApiIOTCafe.Service.User
 {
     public class UserServices : IUserServices
     {
+        
+
         public async Task<LoginResponse> Login(LoginRequest Request)
         {
 
@@ -33,5 +37,50 @@ namespace ApiIOTCafe.Service.User
             return Response;
 
         }
+
+        public List<UserEntities> UserGetAll()
+        {
+            ConnectionData _Cnn = new ConnectionData();
+
+            List<UserEntities> _Result = new List<UserEntities>();
+
+            try
+            {
+
+                _Result = _Cnn.SqlQuery<UserEntities>(@"select * from ""Security"".""Users""");
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+
+            }
+
+
+            return _Result;
+        }
+
+        public async Task<int> Insert(UserEntities Request)
+        {
+            ConnectionData _Cnn = new ConnectionData();
+
+            return await _Cnn.SqlExecuteAsync("",Request.UserId, Request.FirstName, Request.LastName, Request.UserName, Request.Password, Request.ImageUrl, Request.Email, Request.Phone, Request.RolId, Request.Active);
+        }
+
+        public async Task<int> Update(UserEntities Request)
+        {
+            ConnectionData _Cnn = new ConnectionData();
+            return await _Cnn.SqlExecuteAsync("", Request.FirstName, Request.LastName);
+        }
+
+        public async Task<int> Delete(UserEntities Request)
+        {
+
+            ConnectionData _Cnn = new ConnectionData();
+            return await _Cnn.SqlExecuteAsync("", Request.UserId);
+
+        }
+
     }
 }
