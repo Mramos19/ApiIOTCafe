@@ -47,7 +47,7 @@ namespace ApiIOTCafe.Service.User
             try
             {
 
-                _Result = _Cnn.SqlQuery<UserEntities>(@"select * from ""Security"".""Users""");
+                _Result = _Cnn.SqlQuery<UserEntities>(@"select * from ""Security"".""getallusers""()");
 
             }
             catch (Exception ex)
@@ -65,20 +65,20 @@ namespace ApiIOTCafe.Service.User
         {
             ConnectionData _Cnn = new ConnectionData();
 
-            return await _Cnn.SqlExecuteAsync("",Request.UserId, Request.FirstName, Request.LastName, Request.UserName, Request.Password, Request.ImageUrl, Request.Email, Request.Phone, Request.RolId, Request.Active);
+            return await _Cnn.SqlExecuteAsync(@"""Security"".""MyInsert""", Request.FirstName, Request.LastName, Request.UserName, Request.Password, Request.ImageUrl, Request.Email, Request.Phone, Request.RolId, Request.Active);
         }
 
         public async Task<int> Update(UserEntities Request)
         {
             ConnectionData _Cnn = new ConnectionData();
-            return await _Cnn.SqlExecuteAsync("", Request.FirstName, Request.LastName);
+            return await _Cnn.SqlExecuteAsync(@"""Security"".""MyUpdate""", Request.UserId, Request.FirstName, Request.LastName, Request.UserName, Request.Password, Request.ImageUrl, Request.Email, Request.Phone, Request.RolId, Request.Active);
         }
 
-        public async Task<int> Delete(UserEntities Request)
+        public async Task<int> Delete(int UserId)
         {
 
             ConnectionData _Cnn = new ConnectionData();
-            return await _Cnn.SqlExecuteAsync("", Request.UserId);
+            return await _Cnn.SqlExecuteAsync(@"""Security"".""MyDelete""", UserId);
 
         }
 

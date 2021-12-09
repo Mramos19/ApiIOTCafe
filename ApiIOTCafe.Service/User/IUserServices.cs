@@ -16,6 +16,6 @@ namespace ApiIOTCafe.Service.User
         public List<UserEntities> UserGetAll();
         public Task<int> Insert(UserEntities Request);
         public Task<int> Update(UserEntities Request);
-        public Task<int> Delete(UserEntities Request);
+        public Task<int> Delete(int UserId);
     }
 }

@@ -15,8 +15,8 @@ namespace ApiIOTCafe.Model.User.Entities
         public string Password { get; set; }
         public string ImageUrl { get; set; }
         public string Email { get; set; }
-        public string Phone { get; set; }
-        public Int16 RolId { get; set; }
+        public int Phone { get; set; }
+        public int RolId { get; set; }
         public bool Active { get; set; }
 
     }

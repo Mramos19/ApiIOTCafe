@@ -118,7 +118,7 @@ namespace ApiIOTCafe.Controllers
         }
 
         [HttpDelete("Delete")]
-        public async Task<IActionResult> Delete(UserEntities _Request)
+        public async Task<IActionResult> Delete(int UserId)
         {
 
             ResponseEntities<int> _Response = new ResponseEntities<int>();
@@ -127,7 +127,7 @@ namespace ApiIOTCafe.Controllers
             {
                 _Response.StatusCode = "00";
                 _Response.Message = "Success";
-                _Response.Result = await _UserServices.Delete(_Request);
+                _Response.Result = await _UserServices.Delete(UserId);
 
                 return StatusCode(200, _Response);
 
